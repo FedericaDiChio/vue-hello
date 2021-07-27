@@ -10,5 +10,9 @@ console.log("Test:", Vue);
 
 //Inizializziamo Vue
 const root = new Vue ({
-
+    // colleghiamo con l'id nell'html 
+    el: "#root",
+    data: {
+        message: "Hello World!",
+    }
 });
